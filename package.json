@@ -1,0 +1,19 @@
+{
+  "name": "worker-time-tracker",
+  "version": "1.0.0",
+  "description": "A Node.js app to track worker times using Supabase",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "@supabase/supabase-js": "^2.21.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
